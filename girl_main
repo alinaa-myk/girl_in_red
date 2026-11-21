@@ -1,0 +1,28 @@
+
+import colorama
+
+print("Бібліотека colorama")
+
+# показуємо атрибути бібліотеки
+print("\nАтрибути colorama:")
+print(dir(colorama))
+
+# дивимось кольори тексту
+print("\nКольори тексту:")
+print(dir(colorama.Fore))
+
+# дивимось кольори фону
+print("\nКольори фону:")
+print(dir(colorama.Back))
+
+# дивимось стилі тексту
+print("\nСтилі тексту:")
+print(dir(colorama.Style))
+
+# приклад використання кольорів
+print(colorama.Fore.RED + "Це червоний текст")
+print(colorama.Fore.GREEN + "Це зелений текст")
+print(colorama.Style.RESET_ALL)
+
+# кінець програми
+print("\nОсь і все!")
